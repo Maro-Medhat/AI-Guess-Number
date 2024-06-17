@@ -99,25 +99,3 @@ div {
     padding: 15px;
     border-radius: 10px;
 }
-
-/* Specific Styles for Guess Number Display */
-#guessNumber {
-    font-size: 2em;
-    font-weight: bold;
-    color: #007BFF;
-    background-color: #f8f9fa;
-    border: 2px solid #007BFF;
-    margin: 20px 0;
-    padding: 15px;
-    border-radius: 10px;
-}
-
-/* Specific Styles for Number of Guesses Display */
-#numberOfGuesses {
-    font-size: 1.5em;
-    color: #28a745;
-    background-color: #e9f7ef;
-    border: 2px solid #28a745;
-    padding: 10px;
-    border-radius: 10px;
-}
