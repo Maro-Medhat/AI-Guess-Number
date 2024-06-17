@@ -1,0 +1,123 @@
+/* Global Styles */
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e0e0e0;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Image Styles */
+img {
+    width: 350px;
+    height: 350px;
+    margin: 20px 0;
+}
+
+/* Button Styles */
+button {
+    padding: 12px 25px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+/* Button Active Effect */
+button:active {
+    background-color: #004494;
+    transform: scale(1);
+}
+
+/* Paragraph Styles */
+p {
+    margin-bottom: 0;
+}
+
+/* Positioned Buttons Styles */
+#More, #Less {
+    position: fixed;
+    transform: translateY(-50%);
+    top: 50%;
+    padding: 15px 30px;
+    font-size: 1.5em;
+}
+
+#More {
+    right: 20px;
+}
+
+#Less {
+    left: 20px;
+}
+
+/* Flex Container for Labels and Inputs */
+.flex-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Labels and Inputs */
+label {
+    font-size: 1.1em;
+    margin: 0 10px;
+    color: #333;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    margin: 0 10px;
+}
+
+/* General Styles for div */
+div {
+    font-size: 2em;
+    font-weight: bold;
+    color: #007BFF;
+    background-color: #f8f9fa;
+    border: 2px solid #007BFF;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Specific Styles for Guess Number Display */
+#guessNumber {
+    font-size: 2em;
+    font-weight: bold;
+    color: #007BFF;
+    background-color: #f8f9fa;
+    border: 2px solid #007BFF;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+/* Specific Styles for Number of Guesses Display */
+#numberOfGuesses {
+    font-size: 1.5em;
+    color: #28a745;
+    background-color: #e9f7ef;
+    border: 2px solid #28a745;
+    padding: 10px;
+    border-radius: 10px;
+}
