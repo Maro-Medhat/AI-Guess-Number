@@ -84,7 +84,7 @@ let go = createButton("Go!!");
 go.addEventListener("click", function(){
     fromValue = fromInput.value;
     toValue = toInput.value;
-    if(fromValue > toValue)
+    if(Number(fromValue) > Number(toValue))
         [fromValue, toValue] = [toValue, fromValue];
     guessNumber.innerHTML = Math.floor((Number(fromValue) + Number(toValue)) / 2);
     body.innerHTML = '';
